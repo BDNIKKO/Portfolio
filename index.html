@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas David Moppert | Full Stack Developer</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <img src="https://i.ibb.co/wZkNGC73/moppert-portrait-us-army-cropped.jpg" alt="Nicholas David Moppert" class="profile-image">
+                        <div class="profile-ring"></div>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="name">Nicholas David Moppert</h1>
+                        <p class="job-title">Full Stack Developer | Software Engineer</p>
+                        <p class="tagline">Building things that work and look good doing it</p>
+                        <a href="Nicholas_Moppert_PDF_Resume.pdf" download class="resume-button" id="resumeBtn">
+                            <i class="fas fa-file-download"></i>
+                            <span>Download Resume</span>
+                            <div class="sparkle sparkle-1"></div>
+                            <div class="sparkle sparkle-2"></div>
+                            <div class="sparkle sparkle-3"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://github.com/BDNIKKO" target="_blank" class="social-icon" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nicholasmoppert/" target="_blank" class="social-icon" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/ndmoppert/" target="_blank" class="social-icon" data-tooltip="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nicholasmoppert_xviii/" target="_blank" class="social-icon" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="about-section glass-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-user"></i> About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <p class="about-text">
+                    Full stack developer, infantry veteran, currently in the SCI/WGU software development program. 
+                    I build web apps from scratch — frontend, backend, databases, deployment. I care about clean code 
+                    and good UI because I think they're the same thing. The military taught me how to figure things out 
+                    under pressure and ship when it matters.
+                </p>
+            </section>
+
+            <section class="skills-section glass-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-code"></i> Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git/GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-server"></i>
+                        <span>REST APIs</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cloud"></i>
+                        <span>Serverless</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cogs"></i>
+                        <span>CI/CD</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Auth/Security</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>Terraform</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="repos-section glass-card">
+                <div class="section-header">
+                    <h2><i class="fab fa-github"></i> Pinned Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="repos-loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading repositories...</p>
+                </div>
+                <div class="repos-grid" id="repos-container"></div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:moppertn@gmail.com">moppertn@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-laptop-house"></i>
+                        <span>Available for Remote Opportunities</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-building"></i>
+                        <span>Willing to Work In-Person | Wilmington, NC Area</span>
+                    </div>
+                </div>
+                <div class="footer-divider"></div>
+                <p class="copyright">
+                    &copy; 2025 Nicholas David Moppert. Designed with <i class="fas fa-heart"></i> and Code
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
